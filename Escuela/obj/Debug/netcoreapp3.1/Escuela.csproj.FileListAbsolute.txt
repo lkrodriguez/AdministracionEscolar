@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Escuela\Escuela\bin\Debug\netcoreapp3.1\Escuela.exe
+C:\Users\User\source\repos\Escuela\Escuela\bin\Debug\netcoreapp3.1\Escuela.deps.json
+C:\Users\User\source\repos\Escuela\Escuela\bin\Debug\netcoreapp3.1\Escuela.runtimeconfig.json
+C:\Users\User\source\repos\Escuela\Escuela\bin\Debug\netcoreapp3.1\Escuela.runtimeconfig.dev.json
+C:\Users\User\source\repos\Escuela\Escuela\bin\Debug\netcoreapp3.1\Escuela.dll
+C:\Users\User\source\repos\Escuela\Escuela\bin\Debug\netcoreapp3.1\Escuela.pdb
+C:\Users\User\source\repos\Escuela\Escuela\obj\Debug\netcoreapp3.1\Escuela.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Escuela\Escuela\obj\Debug\netcoreapp3.1\Escuela.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Escuela\Escuela\obj\Debug\netcoreapp3.1\Escuela.AssemblyInfo.cs
+C:\Users\User\source\repos\Escuela\Escuela\obj\Debug\netcoreapp3.1\Escuela.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Escuela\Escuela\obj\Debug\netcoreapp3.1\Escuela.dll
+C:\Users\User\source\repos\Escuela\Escuela\obj\Debug\netcoreapp3.1\Escuela.pdb
+C:\Users\User\source\repos\Escuela\Escuela\obj\Debug\netcoreapp3.1\Escuela.genruntimeconfig.cache
