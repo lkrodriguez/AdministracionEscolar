@@ -16,10 +16,10 @@ namespace Escuela
 		Bimestral
 
 	}
-	public class Empleado
+	public class Empleado<Tipo>
 	{
 		#region Atributos
-		private int id;
+		private Tipo id;
 		private string nombre;
 		private bool activo;
 		private int edad;
@@ -29,14 +29,8 @@ namespace Escuela
 		#endregion
 
 		#region Propiedades
-		public int Id
-		{
-			get
-			{
-				return id;	
-			}
-				
-		}
+		public Tipo Id {get; set; }
+		
 		public string Nombre
 		{
 			get 
@@ -77,5 +71,28 @@ namespace Escuela
 
 		}
         #endregion
+
+
+		#region Constructor
+
+		public Empleado()
+        {
+			this.Activo = true;
+		}
+		/*
+		 * sobre carga del Contructor Empleado
+		 * su funcion es inicializar los atributos de un objeto
+		 */
+		public Empleado(string Nombre)
+        {
+			Nombre = nombre;
+			this.Activo = true;
+		}
+
+
+		#endregion
+
+
+
     }
 }

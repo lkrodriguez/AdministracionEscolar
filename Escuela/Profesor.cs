@@ -7,22 +7,30 @@ namespace Escuela
 	/*
 	 * la clase Profesor hereda de la clase Empleado
 	 */
-	class Profesor : Empleado
+	class Profesor<Tipo> : Empleado<Tipo>
 	{
 		#region Atributos
+
 		private string matricula;
 		//private Materia materia;
 		/* se crea un atributo Materia con el nombre materia, utilizando la clase Materia */
 		private FrecuenciaPago frecPago;
+
 		#endregion
 
 
 		#region Propiedades
+
 		public string Matricula 
 		{
 			get
 			{
 				return matricula + "_2021 ";
+			}
+			set
+            {
+				this.matricula = value;
+
 			}
 		}
 		/*
@@ -55,6 +63,16 @@ namespace Escuela
 
 		#endregion
 
+
+		#region Constructor
+
+		public Profesor()
+        {
+			this.matricula = "_2021 ";
+			this.Activo = true;
+		}
+
+		#endregion
 
 	}
 }

@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Escuela
-{
-	class Materia
+{   /*
+     * cuando se crea una clase abstract no se puede crear instancias de la misma
+     */
+	abstract class Materia
 	{
 		#region Atributos
 	 	private string clave;
@@ -18,7 +20,14 @@ namespace Escuela
         public string Clave { get; set; }
         public string Nombre { get; set; }
         #endregion
+
+        #region Metodos
+        public abstract decimal  Evaluar();
+        
+        #endregion 
+
     }
+
 
 
 

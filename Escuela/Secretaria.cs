@@ -7,7 +7,7 @@ namespace Escuela
 	/*
 	 * la clase Secretaria hereda de la clase Empleado
 	 */
-	class Secretaria : Empleado
+	class Secretaria<Tipo> : Empleado<Tipo>
 	{
 		#region Atributos
 
